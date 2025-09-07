@@ -36,11 +36,9 @@ Stratos helps you understand **where your code or project stands in the market**
 ## 🛠️ Tech Stack
 
 - **Frontend**: Next.js (React) + TailwindCSS + shadcn/ui  
-- **Visualization**: Cytoscape.js / D3.js + Recharts  
 - **Backend**: FastAPI (Python)  
 - **Databases**:  
-  - Neo4j (graph of users ↔ companies ↔ markets)  
-  - MongoDB (project metadata, market data)  
+  - Personal Access Token from Github (API)  
 - **AI/ML**:  
   - OpenAI GPT (summarization & insights)  
   - OpenAI Embeddings (semantic matching)  
@@ -90,7 +88,6 @@ We empower:
 
 - [x] GitHub repo analysis  
 - [x] Basic matching (repos ↔ companies)  
-- [ ] Interactive dashboard with graphs  
 - [ ] Market insights panel  
 - [ ] Full bidirectional recommendation system  
 - [ ] Real-time hiring data integration  
